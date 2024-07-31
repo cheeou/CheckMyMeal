@@ -5,4 +5,19 @@
 
 ## 프로젝트 일정
 
-[![](https://mermaid.ink/img/pako:eNplUl1rE0EU_SuXeVLYbfaj5mPfxKgoBIr1pbIv053ZD83uhN1ZpYSAD1vBVhHRUlu2UiHSCn2I2EJEf1F29j84ySax0XmauffMOWfOnT5yGKHIQh6OOLcjkIsHvEvhjo_5_Y3HcHvjQfH1N5RHuTj-Vh7kILK8-JmJvSEUZ2-KD8PJeHTjRcB9eLh5syIgmNN7LA4xB9jaUjsdtd22o6qXUIcHLAJ5qzx-C8X--eRHVrXKj1nxJRenJ-XeGMSvc7H7egGzDM1YV7WGarQU0EmFl85AOineHUkUlK-uxP4piJPL8uBS8g7F2ctp3cIup7GySgD_2bm6KD9lK3YcGQDME7imIw5HcgeTUV6MZBif34vDXbBgwW9qfw36POwqTpIoT5MF_hpQr4CrPlYyKC7GMuyZRva9wnky6HQbHlFMQjrvLEmbqrYkRQoKqRxBQORw-9PLNuI-DamNLLklOH5mIzsaSBxOOdvciRxk8TilCopZ6vnIcnE3kae0Nx1nO8BejMN_qndJwFm8LHYZJlQe-4jv9GafKki4FHBY5AbetJ7GXVn2Oe8lVq02ba9VL1pzWFhLAuLjmPvPW_Va3ag3sWHSesPEt0yTONt6q-ka67pLGppuYDQYKIjO9DvVD56rKKiHoyeMLbwO_gDzaSPj?type=png)](https://mermaid.live/edit#pako:eNplUl1rE0EU_SuXeVLYbfaj5mPfxKgoBIr1pbIv053ZD83uhN1ZpYSAD1vBVhHRUlu2UiHSCn2I2EJEf1F29j84ySax0XmauffMOWfOnT5yGKHIQh6OOLcjkIsHvEvhjo_5_Y3HcHvjQfH1N5RHuTj-Vh7kILK8-JmJvSEUZ2-KD8PJeHTjRcB9eLh5syIgmNN7LA4xB9jaUjsdtd22o6qXUIcHLAJ5qzx-C8X--eRHVrXKj1nxJRenJ-XeGMSvc7H7egGzDM1YV7WGarQU0EmFl85AOineHUkUlK-uxP4piJPL8uBS8g7F2ctp3cIup7GySgD_2bm6KD9lK3YcGQDME7imIw5HcgeTUV6MZBif34vDXbBgwW9qfw36POwqTpIoT5MF_hpQr4CrPlYyKC7GMuyZRva9wnky6HQbHlFMQjrvLEmbqrYkRQoKqRxBQORw-9PLNuI-DamNLLklOH5mIzsaSBxOOdvciRxk8TilCopZ6vnIcnE3kae0Nx1nO8BejMN_qndJwFm8LHYZJlQe-4jv9GafKki4FHBY5AbetJ7GXVn2Oe8lVq02ba9VL1pzWFhLAuLjmPvPW_Va3ag3sWHSesPEt0yTONt6q-ka67pLGppuYDQYKIjO9DvVD56rKKiHoyeMLbwO_gDzaSPj)
+```mermaid
+gantt
+    title ChatGPT API를 활용한 서비스 만들기(with JS)
+    dateFormat  YY-MM-DD
+
+    section 기획 단계
+    프로젝트 컨셉 기획 :2024-07-29, 1d
+    API 비동기 통신 이해 다지기 :after,2024-07-29, 1d 
+
+    section 구현 단계
+    chat GPT API 비동기 연동 개발 작업 : 2024-07-30, 1d
+    html,css,js 개발 : 2024-07-31, 1d
+
+    section 프로젝트 문서 작성
+    github Readme 작성 : 2024-08-01, 1d
+```
