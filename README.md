@@ -17,7 +17,7 @@
 
 ## 기획
 1. main page : 사용자로부터 식단 정보 입력 받는 페이지
-2. oading page : 분석 처리 대기 페이지
+2. loading page : 분석 처리 대기 페이지
 3. result page : 분석 결과 페이지 <br>
 
 ![image](https://github.com/user-attachments/assets/a74a0f19-bdf4-4a12-a6a0-9d98ae38ac3d)
