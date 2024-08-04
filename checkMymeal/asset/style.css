@@ -119,7 +119,7 @@ section > header {
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    background-image: url('img/loadingNego.gif')!important;
+    background-image: url('/img/loadingNego.gif')!important;
 }
 
 .loading-animation {
