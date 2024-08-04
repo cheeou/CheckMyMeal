@@ -1,4 +1,4 @@
-# Check My meal today - 내세끼🍙
+# Check My meal today - 내세끼🍙 
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=black"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=black"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=black">
 
@@ -21,6 +21,13 @@
 3. result page : 분석 결과 페이지 <br>
 
 ![image](https://github.com/user-attachments/assets/a74a0f19-bdf4-4a12-a6a0-9d98ae38ac3d)
+
+## 구현 화면
+| 실행 화면 | 상세 설명 |
+|-----------|------------|
+| <img src="https://github.com/user-attachments/assets/8a0b7d4c-1634-49c1-a654-2adbb79f7455" width="400" height="400"/>  | 사용자의 식단을 입력 받습니다.    |
+| <img src="https://github.com/user-attachments/assets/d54e1455-e257-412a-a8de-18cbe2514cc5" width="400" height="400"/>    | 분석중의 로딩화면 입니다.    |
+| <img src="https://github.com/user-attachments/assets/aea7a0ef-5e49-4f1a-8d78-362674ca2a58" width="400" height="400"/>    | 입력된 식단 정보로 맞춤 정보를 제공합니다. 다시 분석하기 버튼으로 메인으로 돌아갑니다.   |
 
 
 ## 프로젝트 일정
