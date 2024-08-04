@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Moirai+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poor+Story&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Dongle&family=Moirai+One&family=Nanum+Gothic+Coding&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poor+Story&display=swap');
 
-*{
+* {
     font-family: "Dongle", sans-serif;
 }
 
@@ -15,9 +15,9 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    background-image: url('img/mm-background.png');
+    background-image: url('../img/mm-background.png');
     background-size: cover;
-    
+
 }
 
 #form-info {
@@ -45,8 +45,10 @@ body {
 #form-info>p {
     font-size: 40px;
     margin: 10px 0;
-    
-}.button-box {
+
+}
+
+.button-box {
     margin-top: 20px;
 }
 
@@ -63,20 +65,20 @@ button {
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #6e0995;
-  }
-  
-  button:active {
+}
+
+button:active {
     background-color: #da9ce6;
-  }
-  
-  button:focus {
+}
+
+button:focus {
     outline: none;
     box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.5);
-  }
+}
 
 #myModal {
     display: flex;
@@ -86,7 +88,7 @@ button {
     /* display: none; */
 }
 
-section > header {
+section>header {
     font-family: "Poor Story", system-ui;
     font-size: 30px;
     font-weight: 400;
@@ -97,7 +99,7 @@ section > header {
     border-radius: 10px;
     background-color: #efd5f0;
     padding-bottom: 20px;
-} 
+}
 
 
 /* result page */
@@ -119,7 +121,7 @@ section > header {
     justify-content: center;
     align-items: center;
     z-index: 1000;
-    background-image: url('/img/loadingNego.gif')!important;
+    background-image: url('../img/loadingNego.gif') !important;
 }
 
 .loading-animation {
@@ -130,8 +132,9 @@ section > header {
     width: 100%;
 
 }
+
 .loading p {
-   
+
     font-size: 60px;
     color: #000000;
     /* text-align: center;
