@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/style.css">
+    <link rel="icon" href="/asset/favicon.ico">
+    
+    <title>내세끼</title>
+</head>
+<body>
+    <section class="content-wrapper">
+
+        <div class="logo-img">
+            <img src="../img/mm-logo.png" alt="">
+        </div>
+        <header>
+            <h1>'삼시세끼' 정보로 현재 당신의 영양상태를 체크해드립니다!</h1>
+        </header>
+        <div class="input-box">
+            <form action="post" id="form-info">            
+                    <p>아침 식단🍎</p>
+                    <input id="breakfast" autofocus/>
+                    <p>점심 식단🍱</p>
+                    <input id="lunch"/>
+                    <p>저녁 식단🍽️</p>
+                    <input id="dinner"/>
+                    <div class="button-box">
+                        <button class="submit">내세끼 분석하기</button>  
+                    </div>                      
+            </form>
+
+        </div>
+        <div id="loading" class="loading" style="display: none;">
+            <div class="loading-animation">
+                <p>맛있는 분석 중 🫨💬</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/script/script.js"></script>
+    <script src="/script/result.js"></script>
+</body>
+</html>

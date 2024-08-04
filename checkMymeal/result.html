@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/style.css">
+    <title>내세끼 분석 결과</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2, h3, h4 {
+    color: #e74c3c;
+}
+.meal {
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.meal h2 {
+    color: #e74c3c;  /* 식사 시간(아침, 점심, 저녁)을 강조 */
+}
+.advice, .recommendation {
+    background-color: #e8f4f8;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.recommendation h4 {
+    color: #e74c3c;  /* 추천 식사의 아침, 점심, 저녁을 강조 */
+    margin-bottom: 5px;
+}
+.recommendation p {
+    margin-top: 0;
+    margin-left: 15px;
+}
+
+</style>
+</head>
+<body>
+    <section class="content-wrapper">
+        <header>
+            <h1>내세끼 분석 결과</h1>
+        </header>
+        <div id="result"></div>
+        <div class="resultBtn">
+            <button onclick="window.location.href='checkMeal.html'">다시 분석하기</button>
+        </div>
+        
+    </section>
+    <script src="/script/result.js"></script>
+</body>
+</html>
