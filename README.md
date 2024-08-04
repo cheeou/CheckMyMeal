@@ -5,8 +5,8 @@
 
 
 하루 삼시세끼 정보로 ChatGPT가 섭취 영양소 밸런스를 체크 <br>
-![image](https://github.com/user-attachments/assets/594a0809-590f-4327-80d8-e17dd94432e7)
-
+![image](https://github.com/user-attachments/assets/594a0809-590f-4327-80d8-e17dd94432e7) <br>
+https://cheeou.github.io/chatGPT-project/checkMymeal/main.html
 
 ## 개요
 '내세끼'는 사용자에게 하루 섭취한 삼시세끼 식단 정보를 통해 현재 영양 상태를 체크해주고, 영양 밸런스를 위해 다음날 식단을 가이드 해주는 서비스입니다.
