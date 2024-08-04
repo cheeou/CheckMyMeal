@@ -25,9 +25,9 @@ https://cheeou.github.io/chatGPT-project/checkMymeal/main.html
 ## 구현 화면
 | 실행 화면 | 상세 설명 |
 |-----------|------------|
-| <img src="https://github.com/user-attachments/assets/8a0b7d4c-1634-49c1-a654-2adbb79f7455" width="400" height="400"/>  | 사용자의 식단을 입력 받습니다.    |
-| <img src="https://github.com/user-attachments/assets/d54e1455-e257-412a-a8de-18cbe2514cc5" width="400" height="400"/>    | 분석중의 로딩화면 입니다.    |
-| <img src="https://github.com/user-attachments/assets/aea7a0ef-5e49-4f1a-8d78-362674ca2a58" width="400" height="400"/>    | 입력된 식단 정보로 맞춤 정보를 제공합니다. 다시 분석하기 버튼으로 메인으로 돌아갑니다.   |
+| <img src="https://github.com/user-attachments/assets/8a0b7d4c-1634-49c1-a654-2adbb79f7455" width="700" height="700"/>  | 사용자의 식단을 입력 받습니다.    |
+| <img src="https://github.com/user-attachments/assets/d54e1455-e257-412a-a8de-18cbe2514cc5" width="700" height="700"/>    | 분석중의 로딩화면 입니다.    |
+| <img src="https://github.com/user-attachments/assets/aea7a0ef-5e49-4f1a-8d78-362674ca2a58" width="700" height="700"/>    | 입력된 식단 정보로 맞춤 정보를 제공합니다. 다시 분석하기 버튼으로 메인으로 돌아갑니다.   |
 
 ```
 📦checkMymeal
