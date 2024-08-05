@@ -26,36 +26,6 @@ let sendPrompt = (menuInfo) => {
     }
 };
 
-// const getMessage = async () => {
-//     try {
-//         const result = await axios({
-//             method: "post",
-//             maxBodyLength: Infinity,
-//             url: URL,
-//             headers: {
-//                 "Content-Type": "application/json",
-//             },
-//             data: JSON.stringify(data),
-//         });
-//         console.log(result.data);
-//         if(result.data.choices && result.data.choices[0].message.content) {
-//             // 기존 내용을 지웁니다.
-//             modalContent.innerHTML = '';
-            
-//             // 새로운 p 요소를 생성합니다.
-//             const pElement = document.createElement('p');
-//             pElement.textContent = result.data.choices[0].message.content;
-            
-//             // 생성한 p 요소를 modal-content에 추가합니다.
-//             modalContent.appendChild(pElement);
-
-//             // 모달을 표시합니다.
-//             // modalElement.style.display = 'block';
-//         }
-//     } catch (error) {
-//         console.log(error);
-//     }
-// };
 
 const loadingElement = document.getElementById('loading');
 
