@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
         lines.forEach(line => {
             line = line.trim()
-                .replace(/^\d+\.\s*/, '')  // 줄 시작 부분의 숫자와 점 제거
-                .replace(/:\s*/, ' ')  // 콜론과 그 뒤의 공백 제거
-                .replace(/\s*-\s*/, ' ')  // '-'와 그 주변 공백을 하나의 공백으로 대체
-                .replace(/\*\*/g, '');  // '**' 기호 제거
+                .replace(/^\d+\.\s*/, '')  
+                .replace(/:\s*/, ' ')  
+                .replace(/\s*-\s*/, ' ')  
+                .replace(/\*\*/g, '');  
 
             if (line.toLowerCase().startsWith('아침') || line.toLowerCase().startsWith('점심') || line.toLowerCase().startsWith('저녁')) {
                 if (inMeal) formattedResult += '</div>';
