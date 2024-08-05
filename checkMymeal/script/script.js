@@ -51,10 +51,8 @@ const getMessage = async () => {
         });
         console.log(result.data);
         if(result.data.choices && result.data.choices[0].message.content) {
-            // 결과를 로컬 스토리지에 저장
             localStorage.setItem('analysisResult', result.data.choices[0].message.content);
             
-            // 결과 페이지로 이동
             window.location.href = 'result.html';
         }
     } catch (error) {
