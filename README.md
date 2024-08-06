@@ -15,6 +15,25 @@ https://cheeou.github.io/chatGPT-project/checkMymeal/main.html
 사용자에게 아침, 점심, 저녁 식단 정보를 받아 사전에 세팅해 둔 ChatGPT 응답 컨텐츠를 통하여<br> 
 섭취한 식단을 통한 영양 상태 체크 및 올바른 영양소 섭취를 위한 식단 추천을 제공합니다.
 
+## 프로젝트 일정
+
+```mermaid
+gantt
+    title ChatGPT API를 활용한 서비스 만들기(with JS)
+    dateFormat  YY-MM-DD
+
+    section 기획 단계
+    프로젝트 컨셉 기획 :2024-07-29, 1d
+    API 비동기 통신 이해 다지기 :after,2024-07-29, 1d 
+
+    section 구현 단계
+    chat GPT API 비동기 연동 개발 작업 : 2024-07-30, 1d
+    html,css,js 개발 : 2024-07-31, 1d
+
+    section 프로젝트 문서 작성
+    github Readme 작성 : 2024-08-01, 1d
+```
+
 ## 기획
 1. main page : 사용자로부터 식단 정보 입력 받는 페이지
 2. loading page : 분석 처리 대기 페이지
@@ -43,25 +62,6 @@ https://cheeou.github.io/chatGPT-project/checkMymeal/main.html
  ┃ ┗ 📜script.js
  ┣ 📜checkMeal.html
  ┗ 📜result.html
-```
-
-## 프로젝트 일정
-
-```mermaid
-gantt
-    title ChatGPT API를 활용한 서비스 만들기(with JS)
-    dateFormat  YY-MM-DD
-
-    section 기획 단계
-    프로젝트 컨셉 기획 :2024-07-29, 1d
-    API 비동기 통신 이해 다지기 :after,2024-07-29, 1d 
-
-    section 구현 단계
-    chat GPT API 비동기 연동 개발 작업 : 2024-07-30, 1d
-    html,css,js 개발 : 2024-07-31, 1d
-
-    section 프로젝트 문서 작성
-    github Readme 작성 : 2024-08-01, 1d
 ```
 
 ## 추후 보완할 기능 
